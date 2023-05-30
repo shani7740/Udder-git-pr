@@ -27,12 +27,21 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Order the Fresh Milk"/>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="avatar-modified" translatesAutoresizingMaskIntoConstraints="NO" id="VWO-6h-PKB">
+                                <rect key="frame" x="20" y="418" width="353" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="841-gu-xfm"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="CGw-Sl-eNx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5Fi-of-GFd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="VWO-6h-PKB" secondAttribute="trailing" constant="20" id="Mud-Px-JNi"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="VWO-6h-PKB" secondAttribute="bottom" constant="100" id="dRd-Lb-jtY"/>
                             <constraint firstItem="CGw-Sl-eNx" firstAttribute="top" secondItem="7hj-SC-ALF" secondAttribute="bottom" constant="63" id="h0n-bu-1Mb"/>
+                            <constraint firstItem="VWO-6h-PKB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="hIr-ga-CIr"/>
                             <constraint firstItem="7hj-SC-ALF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hcF-G5-kqr"/>
                             <constraint firstItem="7hj-SC-ALF" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="idF-UV-kRd"/>
                         </constraints>
@@ -44,6 +53,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="avatar-modified" width="223" height="223"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
