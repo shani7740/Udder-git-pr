@@ -19,6 +19,10 @@ class ViewController: UIViewController {
         print("in view will apear")
     }
 
+    override func viewWillDisappear(_ animated: Bool) {
+        //
+    }
+
 
 }
 
